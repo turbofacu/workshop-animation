@@ -1,0 +1,106 @@
+// link styles
+
+.expensive-props {
+  &-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.expensive-props {
+  &-item {
+    &-width, &-width-transform, &-height, &-height-transform {
+      color: white;
+      font-size: 50px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+    }
+    &-width, &-height {
+      background-color: crimson;
+    }
+    &-width-transform, &-height-transform {
+      background-color: blue;
+      width: 200px;
+      height: 200px;
+    }
+    &-width {
+      width: 0;
+      height: 200px;
+    }
+    &-height {
+      width: 200px;
+      height: 0;
+      &-wrapper {
+        height: 200px;
+      }
+    }
+    &-width-transform {
+      transform: scale(0, 1);
+      transform-origin: left;
+    }
+    &-height-transform {
+      transform: scale(1, 0);
+      transform-origin: center top;
+    }
+    &-title {
+      color: #666;
+      font-size: 16px;
+      font-weight: 300;
+      padding: 8px;
+      display: block;
+    }
+  }
+}
+
+.swiper-slide-active {
+  .expensive-props-item-width {
+    animation: expensiveWidth 2s linear forwards;
+  }
+  .expensive-props-item-width-transform {
+    animation: cheapWidthTransform 2s linear forwards;
+  }
+  .expensive-props-item-height {
+    animation: expensiveHeight 2s linear forwards;
+  }
+  .expensive-props-item-height-transform {
+    animation: cheapHeightTransform 2s linear forwards;
+  }
+}
+
+@keyframes expensiveWidth {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+@keyframes cheapWidthTransform {
+  0% {
+    transform: scale(0, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes expensiveHeight {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 200px;
+  }
+}
+
+@keyframes cheapHeightTransform {
+  0% {
+    transform: scale(1, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

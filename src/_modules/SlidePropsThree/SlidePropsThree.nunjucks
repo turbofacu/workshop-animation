@@ -1,0 +1,38 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">Propiedades costosas</h2>
+      <h3 class="standard-subtitle">It matters how you move it</h3>
+      <div class="standard-content">
+        <div class="expensive-props-list">
+          <div class="expensive-props-item">
+            <span class="expensive-props-item-title">top</span>
+            <div class="expensive-props-item-top"></div>
+            <span class="expensive-props-item-title">translateY</span>
+            <div class="expensive-props-item-top-transform"></div>
+          </div>
+          <div class="expensive-props-item">
+            <span class="expensive-props-item-title">bottom</span>
+            <div class="expensive-props-item-bottom"></div>
+            <span class="expensive-props-item-title">translateY</span>
+            <div class="expensive-props-item-bottom-transform"></div>
+          </div>
+          <div class="expensive-props-item">
+            <span class="expensive-props-item-title">left</span>
+            <div class="expensive-props-item-left"></div>
+            <span class="expensive-props-item-title">translateX</span>
+            <div class="expensive-props-item-left-transform"></div>
+          </div>
+          <div class="expensive-props-item">
+            <span class="expensive-props-item-title">right</span>
+            <div class="expensive-props-item-right"></div>
+            <span class="expensive-props-item-title">translateX</span>
+            <div class="expensive-props-item-right-transform"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}

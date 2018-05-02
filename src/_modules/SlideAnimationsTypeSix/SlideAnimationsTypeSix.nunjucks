@@ -1,0 +1,17 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">Animación de onboarding</h2>
+      <h3 class="standard-subtitle">Teach the user how to use it</h3>
+      <div class="standard-content">
+        <div class="ui-interface-card-wrapper">
+          <div class="ui-interface-card end"></div>
+          <div class="ui-interface-card middle"></div>
+          <div class="ui-interface-card start"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}

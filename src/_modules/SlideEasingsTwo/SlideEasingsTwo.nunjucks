@@ -1,0 +1,29 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">Easings</h2>
+      <h3 class="standard-subtitle">linear, ease-in, ease-out, ease-in-out, cubic-bezier</h3>
+      <div class="standard-content">
+        <div class="easings-list">
+          <div class="easings-item linear">
+            <div class="easings-item-circle"></div>
+          </div>
+          <div class="easings-item ease-in">
+            <div class="easings-item-circle"></div>
+          </div>
+          <div class="easings-item ease-out">
+            <div class="easings-item-circle"></div>
+          </div>
+          <div class="easings-item ease-in-out">
+            <div class="easings-item-circle"></div>
+          </div>
+          <div class="easings-item cubic-bezier">
+            <div class="easings-item-circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}

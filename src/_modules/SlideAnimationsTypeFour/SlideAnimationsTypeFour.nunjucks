@@ -1,0 +1,23 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">Animación de insinuación</h2>
+      <h3 class="standard-subtitle">Guide the user's eye</h3>
+      <div class="standard-content">
+        <div class="ui-interface-item">
+          <div class="ui-interface-input-wrapper">
+            <input class="ui-interface-input" id="ui-input" type="text" placeholder="name" />
+            <span class="ui-interface-input-condition">Al menos 3 caracteres</span>
+          </div>
+          <div class="ui-interface-button inactive loading-button" id="input-button">
+            <div class="ui-interface-button-text">Send</div>
+            <div class="ui-interface-button-loading"></div>
+            <div class="ui-interface-button-success"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}

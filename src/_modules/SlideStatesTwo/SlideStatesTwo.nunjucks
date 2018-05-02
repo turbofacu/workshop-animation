@@ -1,0 +1,29 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">Estados de la animación</h2>
+      <h3 class="standard-subtitle">back and forth</h3>
+      <div class="standard-content">
+        <div class="states-list">
+          <div class="states-item">
+            <div class="states-item-square">
+              <span class="states-item-text">Texto</span>
+            </div>
+          </div>
+          <div class="states-item correct">
+            <div class="states-item-square">
+              <span class="states-item-text">Texto</span>
+            </div>
+          </div>
+          <div class="states-item bad">
+            <div class="states-item-square">
+              <span class="states-item-text">Texto</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}

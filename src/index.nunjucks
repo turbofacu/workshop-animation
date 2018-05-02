@@ -1,0 +1,83 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% import "_modules/MainSlide/MainSlide.nunjucks" as MainSlide %}
+{% import "_modules/SlidePropsOne/SlidePropsOne.nunjucks" as SlidePropsOne %}
+{% import "_modules/SlidePropsTwo/SlidePropsTwo.nunjucks" as SlidePropsTwo %}
+{% import "_modules/SlidePropsThree/SlidePropsThree.nunjucks" as SlidePropsThree %}
+{% import "_modules/SlidePropsFour/SlidePropsFour.nunjucks" as SlidePropsFour %}
+{% import "_modules/SlideEasingsOne/SlideEasingsOne.nunjucks" as SlideEasingsOne %}
+{% import "_modules/SlideEasingsTwo/SlideEasingsTwo.nunjucks" as SlideEasingsTwo %}
+{% import "_modules/SlideCSSVsJS/SlideCSSVsJS.nunjucks" as SlideCSSVsJS %}
+{% import "_modules/SlideStatesOne/SlideStatesOne.nunjucks" as SlideStatesOne %}
+{% import "_modules/SlideStatesTwo/SlideStatesTwo.nunjucks" as SlideStatesTwo %}
+{% import "_modules/SlidePerformance/SlidePerformance.nunjucks" as SlidePerformance %}
+{% import "_modules/SlideAnimationsTypeOne/SlideAnimationsTypeOne.nunjucks" as SlideAnimationsTypeOne %}
+{% import "_modules/SlideAnimationsTypeTwo/SlideAnimationsTypeTwo.nunjucks" as SlideAnimationsTypeTwo %}
+{% import "_modules/SlideAnimationsTypeThree/SlideAnimationsTypeThree.nunjucks" as SlideAnimationsTypeThree %}
+{% import "_modules/SlideAnimationsTypeFour/SlideAnimationsTypeFour.nunjucks" as SlideAnimationsTypeFour %}
+{% import "_modules/SlideAnimationsTypeFive/SlideAnimationsTypeFive.nunjucks" as SlideAnimationsTypeFive %}
+{% import "_modules/SlideAnimationsTypeSix/SlideAnimationsTypeSix.nunjucks" as SlideAnimationsTypeSix %}
+
+{% block content %}
+
+  <div class="main-container">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          {{ MainSlide.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideAnimationsTypeOne.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideAnimationsTypeTwo.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideAnimationsTypeThree.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideAnimationsTypeFour.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideAnimationsTypeFive.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideAnimationsTypeSix.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlidePerformance.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlidePropsOne.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlidePropsTwo.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlidePropsThree.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlidePropsFour.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideEasingsOne.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideEasingsTwo.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideCSSVsJS.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideStatesOne.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideStatesTwo.content() }}
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+
+{% endblock %}

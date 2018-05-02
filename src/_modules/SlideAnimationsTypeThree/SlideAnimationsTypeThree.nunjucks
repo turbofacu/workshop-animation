@@ -1,0 +1,19 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">Animación de de espera</h2>
+      <h3 class="standard-subtitle">Stop the users anxiety</h3>
+      <div class="standard-content">
+        <div class="ui-interface-item">
+          <div class="ui-interface-button loading-button">
+            <div class="ui-interface-button-text">Click Me!</div>
+            <div class="ui-interface-button-loading"></div>
+            <div class="ui-interface-button-success"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}
