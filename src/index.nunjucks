@@ -28,7 +28,7 @@
   <div class="main-container">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        {# <div class="swiper-slide">
+        <div class="swiper-slide">
           {{ MainSlide.content() }}
         </div>
         <div class="swiper-slide">
@@ -63,7 +63,7 @@
         </div>
         <div class="swiper-slide">
           {{ SlideDurations.content() }}
-        </div> #}
+        </div>
         <div class="swiper-slide">
           {{ SlideEasingsOne.content() }}
         </div>

@@ -4,8 +4,10 @@
     <div class="swiper-content">
       <h2 class="standard-title">Performance</h2>
       <h3 class="standard-subtitle">Animations can also ruin the day</h3>
-      <div class="standard-content">
-        <p class="standard-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph">Una de las <strong>tareas más importantes</strong> que realiza el navegador al entrar a un sitio web es en convertir el <strong>DOM (Document Object Model)</strong>, nuestro HTML, y el CSSOM (CSS Object Model), nuestro CSS, en pixeles renderizados en pantalla.</p>
+        <p class="standard-paragraph">Este proceso <strong>es realizado por la GPU (Graphics Processing Unit)</strong>, la placa de video de la computadora. Se llama <strong>paint</strong> (al primer pintado) y <strong>repaint</strong> cuando por ejemplo, scrolleamos y el navegador tiene que volver a pintar.</p>
+        <p class="standard-paragraph">Cuanto menos tengamos que utilizar la GPU, más rápido cargará nuestro sitio. Esto es valido tanto para animaciones como para HTML en general. Por ejemplo si en nuestro HTML o como background-image de CSS utilizamos un SVG con muchos nodos (una textura), nuestro sitio web tendrá problemas de performance en celulares de media-alta a baja calidad ya que al navegador le va a costar mucho procesar tantos nodos.</p>
       </div>
     </div>
   </div>

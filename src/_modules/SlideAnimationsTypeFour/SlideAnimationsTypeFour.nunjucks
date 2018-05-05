@@ -4,6 +4,9 @@
     <div class="swiper-content">
       <h2 class="standard-title">Animación de insinuación</h2>
       <h3 class="standard-subtitle">Guide the user's eye</h3>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph">La función de esta animación es la de <strong>indicar al usuario</strong> que es importante que note algo de nuestra interfaz.</p>
+      </div>
       <div class="standard-content">
         <div class="ui-interface-item">
           <div class="ui-interface-input-wrapper">

@@ -9,6 +9,7 @@
 @import '../_modules/SlideEasingsTwo/SlideEasingsTwo';
 @import '../_modules/SlideStatesOne/SlideStatesOne';
 @import '../_modules/SlideStatesTwo/SlideStatesTwo';
+@import '../_modules/SlideAnimationsTypeOne/SlideAnimationsTypeOne';
 @import '../_modules/SlideAnimationsTypeTwo/SlideAnimationsTypeTwo';
 @import '../_modules/SlideAnimationsTypeSix/SlideAnimationsTypeSix';
 @import '../_modules/SlideTransitionsKeyframesTwo/SlideTransitionsKeyframesTwo';
@@ -100,6 +101,11 @@ body {
   font-size: 22px;
   line-height: 1.4em;
   margin-bottom: 12px;
+  &.disclaimer {
+    color: #666;
+    font-size: 18px;
+    font-style: italic;
+  }
 }
 
 .standard-link {

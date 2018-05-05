@@ -4,8 +4,10 @@
     <div class="swiper-content">
       <h2 class="standard-title">will-change</h2>
       <h3 class="standard-subtitle">Not to be confused with Will Smith</h3>
-      <div class="standard-content">
-        <p class="standard-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph">La propiedad <strong>will-change nos permite avisarle al navegador</strong> los cambios que va a sufrir un elemento de nuestra UI así, antes de que suceda la animación, preparar todas las optimizaciones para que esta se vea lo mejor posible.</p>
+        <p class="standard-paragraph">Este tipo de optimizaciones <strong>mejora la respuesta de un sitio web</strong> haciendo que el browser trabaje antes de que las animaciones se produzcan.</p>
+        <p class="standard-paragraph">Es importante <strong>no utilizar will-change todo el tiempo</strong>, solo cuando creamos que es realmente necesario ya que sino estaríamos forzando al browser a trabajar antes de tiempo, todo el tiempo.</p>
       </div>
     </div>
   </div>

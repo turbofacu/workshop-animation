@@ -4,6 +4,9 @@
     <div class="swiper-content">
       <h2 class="standard-title">Animación de de espera</h2>
       <h3 class="standard-subtitle">Stop the users anxiety</h3>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph">La función de esta animación es la de dar <strong>feedback al usuario</strong>. Nos permite avisarle que algo está sucediendo en nuestro sitio.</p>
+      </div>
       <div class="standard-content">
         <div class="ui-interface-item">
           <div class="ui-interface-button loading-button">

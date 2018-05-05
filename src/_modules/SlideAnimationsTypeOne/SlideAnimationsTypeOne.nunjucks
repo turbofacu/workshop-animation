@@ -4,8 +4,16 @@
     <div class="swiper-content">
       <h2 class="standard-title">Tipos de animación</h2>
       <h3 class="standard-subtitle">Every move has it's purpose</h3>
-      <div class="standard-content">
-        <p class="standard-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph">En un sitio web tenemos muchos recursos para <strong>comunicarnos con el usuario.</strong> Las <strong>animaciones</strong> forman parte de estos recursos y para lograr <strong>entablar una comunicación</strong> con el usuario tenemos los siguientes <strong>tipos de animaciones</strong>:</p>
+        <ul class="animation-type-list">
+          <li class="animation-type-item">- Animación de elemento de interfaz</li>
+          <li class="animation-type-item">- Animación de espera</li>
+          <li class="animation-type-item">- Animación de insinuación</li>
+          <li class="animation-type-item">- Animación de storytelling</li>
+          <li class="animation-type-item">- Animación de onboarding</li>
+        </ul>
+        <p class="standard-paragraph">Es importante que entendamos que estos recursos <strong>no deben ser utilizados a la ligera</strong> ya que sino no encontraremos <strong>animando por placer y no por función</strong>, aunque algunas veces la función de una animación puede ser el <strong>impacto.</strong></p>
       </div>
     </div>
   </div>
