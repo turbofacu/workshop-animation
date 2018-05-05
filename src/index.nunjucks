@@ -17,13 +17,18 @@
 {% import "_modules/SlideAnimationsTypeFour/SlideAnimationsTypeFour.nunjucks" as SlideAnimationsTypeFour %}
 {% import "_modules/SlideAnimationsTypeFive/SlideAnimationsTypeFive.nunjucks" as SlideAnimationsTypeFive %}
 {% import "_modules/SlideAnimationsTypeSix/SlideAnimationsTypeSix.nunjucks" as SlideAnimationsTypeSix %}
+{% import "_modules/SlideDurations/SlideDurations.nunjucks" as SlideDurations %}
+{% import "_modules/SlideTransitionsKeyframesOne/SlideTransitionsKeyframesOne.nunjucks" as SlideTransitionsKeyframesOne %}
+{% import "_modules/SlideTransitionsKeyframesTwo/SlideTransitionsKeyframesTwo.nunjucks" as SlideTransitionsKeyframesTwo %}
+{% import "_modules/SlideTransitionsKeyframesThree/SlideTransitionsKeyframesThree.nunjucks" as SlideTransitionsKeyframesThree %}
+{% import "_modules/SlideTransitionsKeyframesFour/SlideTransitionsKeyframesFour.nunjucks" as SlideTransitionsKeyframesFour %}
 
 {% block content %}
 
   <div class="main-container">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
+        {# <div class="swiper-slide">
           {{ MainSlide.content() }}
         </div>
         <div class="swiper-slide">
@@ -45,6 +50,27 @@
           {{ SlideAnimationsTypeSix.content() }}
         </div>
         <div class="swiper-slide">
+          {{ SlideTransitionsKeyframesOne.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideTransitionsKeyframesTwo.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideTransitionsKeyframesThree.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideTransitionsKeyframesFour.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideDurations.content() }}
+        </div> #}
+        <div class="swiper-slide">
+          {{ SlideEasingsOne.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideEasingsTwo.content() }}
+        </div>
+        <div class="swiper-slide">
           {{ SlidePerformance.content() }}
         </div>
         <div class="swiper-slide">
@@ -58,12 +84,6 @@
         </div>
         <div class="swiper-slide">
           {{ SlidePropsFour.content() }}
-        </div>
-        <div class="swiper-slide">
-          {{ SlideEasingsOne.content() }}
-        </div>
-        <div class="swiper-slide">
-          {{ SlideEasingsTwo.content() }}
         </div>
         <div class="swiper-slide">
           {{ SlideCSSVsJS.content() }}

@@ -1,0 +1,12 @@
+.tk-grammar {
+  &-code {
+    font-size: 18px;
+    line-height: 1.6em;
+  }
+  &-indent {
+    padding-left: 12px;
+    &.x2 {
+      padding-left: 24px;
+    }
+  }
+}

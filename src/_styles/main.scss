@@ -11,6 +11,9 @@
 @import '../_modules/SlideStatesTwo/SlideStatesTwo';
 @import '../_modules/SlideAnimationsTypeTwo/SlideAnimationsTypeTwo';
 @import '../_modules/SlideAnimationsTypeSix/SlideAnimationsTypeSix';
+@import '../_modules/SlideTransitionsKeyframesTwo/SlideTransitionsKeyframesTwo';
+@import '../_modules/SlideTransitionsKeyframesThree/SlideTransitionsKeyframesThree';
+@import '../_modules/SlideTransitionsKeyframesFour/SlideTransitionsKeyframesFour';
 
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements
@@ -41,8 +44,11 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  &.content-column {
+  &.content-column, &.content-text {
     flex-direction: column;
+  }
+  &.content-text {
+    align-items: flex-start;
   }
 }
 
@@ -82,9 +88,18 @@ body {
   margin-bottom: 24px;
 }
 
+.example-title {
+  color: #666;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 8px 0;
+  display: block;
+}
+
 .standard-paragraph {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.4em;
+  margin-bottom: 12px;
 }
 
 .standard-link {

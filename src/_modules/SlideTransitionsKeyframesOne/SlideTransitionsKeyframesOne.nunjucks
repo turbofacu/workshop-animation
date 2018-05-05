@@ -1,0 +1,14 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">Transitions != Keyframes</h2>
+      <h3 class="standard-subtitle">The power to know when to use each one</h3>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph">Las <strong>transiciones</strong> son usadas cuando debemos animar un elemento en <strong>estado A para llegar al estado B</strong>. Son animaciones simples y que implican el cambio de una propiedad o más propiedades <strong>una sola vez.</strong></p>
+        <p class="standard-paragraph">Los <strong>keyframes</strong> son usados cuando debemos animar un elemento en <strong>estado A para llegar al estado E pasando por diferentes estados (B, C y D) hasta llegar al final</strong>. Son secuencias de animaciones concatenadas en una linea de tiempo destinadas a transitar un camino para llegar al punto final de la animación.</p>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}

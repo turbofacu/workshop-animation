@@ -1,0 +1,42 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">Transitions != Keyframes</h2>
+      <h3 class="standard-subtitle">The proper grammar</h3>
+      <div class="standard-content content-column">
+        <div class="tk-grammar-item">
+          <div class="tk-grammar-code">
+            <div>@keyframes <strong>move</strong> {</div>
+              <div class="tk-grammar-indent">0% {</div>
+              <div class="tk-grammar-indent x2">transform: translate3d(-100%, 0, 0);</div>
+              <div class="tk-grammar-indent">}</div>
+              <div class="tk-grammar-indent">50%, 70% {</div>
+              <div class="tk-grammar-indent x2">background-color: red;</div>
+              <div class="tk-grammar-indent">}</div>
+              <div class="tk-grammar-indent">60, 80% {</div>
+              <div class="tk-grammar-indent x2">background-color: blue;</div>
+              <div class="tk-grammar-indent">}</div>
+              <div class="tk-grammar-indent">100% {</div>
+              <div class="tk-grammar-indent x2">transform: translate3d(-100%, 0, 0);</div>
+              <div class="tk-grammar-indent">}</div>
+            <div>}</div>
+          </div>
+        </div>
+        <div class="tk-grammar-item">
+          <p class="standard-paragraph"><strong>animation:</strong> <span>name duration easing delay loop fill;</span></p>
+          <p class="standard-paragraph"><strong>animation:</strong> <span>move 250ms linear 1 forwards;</span></p>
+          <ul class="tk-grammar-props">
+            <li class="tk-grammar-prop"><strong>name:</strong> Nombre de la animación</li>
+            <li class="tk-grammar-prop"><strong>duration:</strong> Duración de la animación</li>
+            <li class="tk-grammar-prop"><strong>easing:</strong> Física de la animación</li>
+            <li class="tk-grammar-prop"><strong>delay:</strong> Tiempo de espera antes de empezar la animación</li>
+            <li class="tk-grammar-prop"><strong>loop:</strong> Cantidad de veces a repetir la animación</li>
+            <li class="tk-grammar-prop"><strong>fill:</strong> Estado final de la animación</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}

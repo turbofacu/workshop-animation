@@ -17,9 +17,6 @@
     &.middle, &.end {
       box-shadow: none;
     }
-    &.start {
-      animation: wiggleCard #{500ms * 4} ease-out #{500ms * 2.5};
-    }
     &.middle {
       background-color: pink;
     }
@@ -42,6 +39,9 @@
 
 .swiper-slide-active {
   .ui-interface-card {
+    &.start {
+      animation: wiggleCard #{500ms * 4} ease-out #{500ms * 2.5};
+    }
     &.middle {
       transform: translate3d(10px, 10px, 0) !important;
       box-shadow: 3px 3px 10px 1px rgba(black, 0.2) !important;

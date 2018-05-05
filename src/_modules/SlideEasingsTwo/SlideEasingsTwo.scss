@@ -7,33 +7,39 @@
     flex-direction: column;
   }
   &-item {
+    height: 50px;
+    width: 100%;
     margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
     &.linear {
       > div {
         background-color: crimson;
       }
     }
     &.ease-in {
-      animation-timing-function: ease-in !important;
       > div {
+        animation-timing-function: ease-in !important;
         background-color: blue;
       }
     }
     &.ease-out {
-      animation-timing-function: ease-out !important;
       > div {
+        animation-timing-function: ease-out !important;
         background-color: purple;
       }
     }
     &.ease-in-out {
-      animation-timing-function: ease-in-out !important;
       > div {
+        animation-timing-function: ease-in-out !important;
         background-color: lime;
       }
     }
     &.cubic-bezier {
-      animation-timing-function: cubic-bezier(0, 0, 0.13, 2.19) !important;
       > div {
+        animation-timing-function: cubic-bezier(0, 0, 0.13, 2.19) !important;
         background-color: teal;
       }
     }
@@ -41,21 +47,25 @@
       width: 50px;
       height: 50px;
       border-radius: 100%;
+      position: absolute;
+      top: 0;
+      left: 150px;
+      transform: translate3d(0, 0, 0);
     }
   }
 }
 
 .swiper-slide-active {
-  .easings-item {
+  .easings-item-circle {
     animation: circleMove 2s linear forwards 500ms;
   }
 }
 
 @keyframes circleMove {
   0% {
-    transform: translate3d(0, 0, 0);
+    left: 150px;
   }
   100% {
-    transform: translate3d(calc(100% - 50px), 0, 0);
+    left: 100%;
   }
 }

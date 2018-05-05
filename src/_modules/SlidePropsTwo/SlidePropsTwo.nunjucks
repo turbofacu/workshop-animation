@@ -7,17 +7,17 @@
       <div class="standard-content">
         <div class="expensive-props-list">
           <div class="expensive-props-item">
-            <span class="expensive-props-item-title">width</span>
+            <span class="example-title">width</span>
             <div class="expensive-props-item-width">Texto</div>
-            <span class="expensive-props-item-title">scaleX</span>
+            <span class="example-title">scaleX</span>
             <div class="expensive-props-item-width-transform">Texto</div>
           </div>
           <div class="expensive-props-item">
-            <span class="expensive-props-item-title">height</span>
+            <span class="example-title">height</span>
             <div class="expensive-props-item-height-wrapper">
               <div class="expensive-props-item-height">Texto</div>
             </div>
-            <span class="expensive-props-item-title">scaleY</span>
+            <span class="example-title">scaleY</span>
             <div class="expensive-props-item-height-transform">Texto</div>
           </div>
         </div>

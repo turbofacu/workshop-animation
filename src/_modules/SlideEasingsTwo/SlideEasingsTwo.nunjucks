@@ -3,22 +3,27 @@
   <div class="standard-container">
     <div class="swiper-content">
       <h2 class="standard-title">Easings</h2>
-      <h3 class="standard-subtitle">linear, ease-in, ease-out, ease-in-out, cubic-bezier</h3>
+      <h3 class="standard-subtitle">Control the time with your code!</h3>
       <div class="standard-content">
         <div class="easings-list">
           <div class="easings-item linear">
+            <span class="example-title">linear</span>
             <div class="easings-item-circle"></div>
           </div>
           <div class="easings-item ease-in">
+            <span class="example-title">ease-in</span>
             <div class="easings-item-circle"></div>
           </div>
           <div class="easings-item ease-out">
+            <span class="example-title">ease-out</span>
             <div class="easings-item-circle"></div>
           </div>
           <div class="easings-item ease-in-out">
+            <span class="example-title">ease-in-out</span>
             <div class="easings-item-circle"></div>
           </div>
           <div class="easings-item cubic-bezier">
+            <span class="example-title">cubic-bezier</span>
             <div class="easings-item-circle"></div>
           </div>
         </div>

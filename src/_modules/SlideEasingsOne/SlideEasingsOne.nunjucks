@@ -4,8 +4,10 @@
     <div class="swiper-content">
       <h2 class="standard-title">Easings</h2>
       <h3 class="standard-subtitle">Watch out for the real world</h3>
-      <div class="standard-content">
-        <p class="standard-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph">Ningún ningún objeto pasa de 0 a 100 km/h en 0 segundos, <strong>todos los objetos tienen que tener un lapsus hasta llega a la velocidad máxima y hasta parar.</strong> Para realizar este trabajo tenemos las curvas de easing a nuestra disposición.</p>
+        <p class="standard-paragraph">Utilizar easings nos permite especificar la velocidad con la cual nuestra animación va a progresar en distintas etapas de una línea de tiempo. Estas curvas sirven para que nuestra UI se vea más realista, permitiendo que nuestros elementos se <strong>comporten como un objeto del mundo real.</strong></p>
+        <p class="standard-paragraph">En CSS podemos usar <strong>easings predefidinos</strong> o podemos definir nuestras propias curvas de <strong>Cubic Bézier</strong> para llegar exactamente a la animación que queremos.</p>
       </div>
     </div>
   </div>

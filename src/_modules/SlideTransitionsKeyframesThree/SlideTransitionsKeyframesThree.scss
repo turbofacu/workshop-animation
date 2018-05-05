@@ -1,0 +1,14 @@
+.tk-grammar {
+  &-item {
+    width: 100%;
+    margin-bottom: 24px;
+    .standard-paragraph {
+      span {
+        color: #666;
+      }
+    }
+  }
+  &-props {
+    list-style: none;
+  }
+}

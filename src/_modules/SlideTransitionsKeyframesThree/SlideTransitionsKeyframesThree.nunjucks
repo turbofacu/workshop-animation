@@ -1,0 +1,22 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">Transitions != Keyframes</h2>
+      <h3 class="standard-subtitle">The proper grammar</h3>
+      <div class="standard-content content-column">
+        <div class="tk-grammar-item">
+          <p class="standard-paragraph"><strong>transition:</strong> <span>property duration easing delay, property duration easing delay;</span></p>
+          <p class="standard-paragraph"><strong>transition:</strong> <span>all 250ms, transform 500ms cubic-bezier(0.25, 0.1, 0.21, 1.53) 50ms;</span></p>
+          <ul class="tk-grammar-props">
+            <li class="tk-grammar-prop"><strong>property:</strong> Propiedad a transicionar</li>
+            <li class="tk-grammar-prop"><strong>duration:</strong> Duración de la transición</li>
+            <li class="tk-grammar-prop"><strong>easing:</strong> Física de la transición</li>
+            <li class="tk-grammar-prop"><strong>delay:</strong> Tiempo de espera antes de empezar la transición</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}

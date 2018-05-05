@@ -1,0 +1,73 @@
+.tk-item {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  transform-origin: center;
+  &.keyframes-item {
+    background-color: crimson;
+  }
+  &.transitions-item {
+    background-color: blue;
+    transition: all 5s linear;
+    transform: translate3d(0, 0, 0);
+  }
+  &-wrapper {
+    width: 100%;
+  }
+}
+
+.swiper-slide-active {
+  .transitions-item {
+    transform: translate3d(400%, 0, 0);
+    background-color: crimson;
+  }
+  .keyframes-item {
+    animation: keyframes 5s linear forwards;
+  }
+}
+
+@keyframes keyframes {
+  0% {
+    background-color: crimson;
+  }
+  5% {
+    transform: rotate(-5deg);
+  }
+  7% {
+    transform: rotate(-6deg);
+  }
+  12% {
+    transform: rotate(-7deg);
+  }
+  15% {
+    transform: rotate(8deg) translate3d(0, 0, 0);
+  }
+  20% {
+    transform: rotate(10deg) translate3d(30%, 0, 0);
+  }
+  30% {
+    background-color: lime;
+  }
+  40% {
+    background-color: purple;
+  }
+  45%, 47%, 66% {
+    opacity: 1;
+  }
+  46%, 48%, 65% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 1;
+    transform: rotate(10deg) translate3d(198%, 0, 0);
+  }
+  50% {
+    opacity: 0;
+    transform: rotate(0) translate3d(200%, 0, 0);
+    background-color: yellow;
+  }
+  100% {
+    transform: translate3d(400%, 0, 0);
+    background-color: blue;
+  }
+}

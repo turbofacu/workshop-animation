@@ -1,0 +1,20 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">Transitions != Keyframes</h2>
+      <h3 class="standard-subtitle">The are lot's of forks down this path</h3>
+      <div class="standard-content content-column">
+        <div class="tk-item-wrapper">
+          <div class="example-title">Transition</div>
+          <div class="tk-item transitions-item"></div>
+        </div>
+        <div class="tk-item-wrapper">
+          <div class="example-title">Keyframes</div>
+          <div class="tk-item keyframes-item"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}
