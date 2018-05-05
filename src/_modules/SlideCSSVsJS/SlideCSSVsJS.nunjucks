@@ -4,8 +4,11 @@
     <div class="swiper-content">
       <h2 class="standard-title">CSS vs Javascript</h2>
       <h3 class="standard-subtitle">Round One: Fight!</h3>
-      <div class="standard-content">
-        <p class="standard-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph">La regla de oro es: <strong>Si podes solucionar la animación con CSS, utilizá CSS.</strong></p>
+        <p class="standard-paragraph"><strong>Animaciones simples</strong> como cambios de estado de un botón o abrir un menú podemos hacerlas con CSS.</p>
+        <p class="standard-paragraph">Usaremos keyframes de CSS para generar <strong>animaciones complejas</strong> y cuando no podamos recurriremos a Javascript.</p>
+        <p class="standard-paragraph">Javascript nos sirve también para <strong>controlar los estados de la animación</strong> mediante el agregado de clases a nuestros elementos HTML y aunque la animación <strong>siga siendo CSS.</strong></p>
       </div>
     </div>
   </div>

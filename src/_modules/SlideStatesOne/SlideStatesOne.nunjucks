@@ -4,8 +4,13 @@
     <div class="swiper-content">
       <h2 class="standard-title">Estados de la animación</h2>
       <h3 class="standard-subtitle">Learning to go both ways</h3>
-      <div class="standard-content">
-        <p class="standard-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph">Las animaciones tienen <strong>tres estados</strong>, dos son estáticos y uno animado</p>
+        <p class="standard-paragraph">- El elemento previo a la animación.</p>
+        <p class="standard-paragraph">- El elemento siendo animado.</p>
+        <p class="standard-paragraph">- El elemento con la animación terminada.</p>
+        <p class="standard-paragraph">Es importante saber que no siempre nuestras animaciones van a funcionar bien <strong>de ida y de vuelta.</strong> Muchas veces vamos a tener que hacer <strong>el proceso contrario utilizando delays</strong> para controlar cuando queremos que suceda cada <strong>cambio de propiedad</strong> en el caso de las transiciones y <strong>keyframes distintos</strong> en el caso de las animaciones.</p>
+        <p class="standard-paragraph">Con cambios de clases y hovers <strong>podemos pisar la transición/animación predefinida del elemento</strong> y luego al sacar la clase o cambiar el estado <strong>volver a la transición/animación predefinida.</strong></p>
       </div>
     </div>
   </div>

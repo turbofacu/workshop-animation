@@ -5,7 +5,7 @@
       <h2 class="standard-title">Animación de elemento de interfaz</h2>
       <h3 class="standard-subtitle">Show some action!</h3>
       <div class="standard-content content-text">
-        <p class="standard-paragraph">La función de esta animación es hacer que <strong>el usuario pueda identificar</strong> los elementos de una UI como interactivos.</p>
+        <p class="standard-paragraph">La función de esta animación es hacer que el <strong>usuario pueda identificar</strong> los elementos de una UI como interactivos.</p>
       </div>
       <div class="standard-content">
         <div class="ui-interface-button loading-button">

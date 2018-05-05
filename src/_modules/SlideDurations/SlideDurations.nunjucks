@@ -6,7 +6,7 @@
       <h3 class="standard-subtitle">Don't overextend yourself</h3>
       <div class="standard-content content-text">
         <p class="standard-paragraph">La <strong>duración</strong> es la cantidad de tiempo que va a tardar nuestra animación en completarse.</p>
-        <p class="standard-paragraph">En un sitio web o una aplicación <strong>es importante que sean cortas</strong>, ya que el periodo de atención de los usuarios/as es bastante corto. Salvo que estemos haciendo un sitio 100% basado en animaciones (por lo cual el usuario sabría que esperar de nuestro sitio), es importante que nuestras animaciones <strong>no duren más de 1 segundo.</strong></p>
+        <p class="standard-paragraph">En un sitio web o una aplicación <strong>es importante que sean cortas</strong>, ya que el periodo de atención de los usuarios es bastante corto. Salvo que estemos haciendo un sitio 100% basado en animaciones (por lo cual el usuario sabría que esperar de nuestro sitio), es importante que nuestras animaciones <strong>no duren más de 1 segundo.</strong></p>
         <p class="standard-paragraph">Esto es crucial para <strong>animaciones repetitivas</strong> que tengamos en nuestro sitio/app. Imaginen una animación de like que tarda más de 4 segundos, ningún usuario/a la vería completa porque ya estaría likeando otro post o foto.</p>
         <p class="standard-paragraph">La <strong>duración</strong> también nos puede servir para hacer que un elemento de nuestra UI se vea mucho más pesado cuando se está moviendo que otro. Si un cuadrado tarda más en dar la vuelta es probable que ese sea más pesado.</p>
       </div>
