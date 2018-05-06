@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('sky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  overflow: visible;
+  width: 300px;
+  height: auto;
+}
+
+.border-outside, .border-inside {
+  transform: scale( 0, 0 );
+  transform-origin: center;
+}
+
+.border-inside {
+  transition: transform 300ms cubic-bezier(0, 0, 0.21, 1.55) 250ms;
+}
+
+.border-outside {
+  transition: transform 500ms cubic-bezier(0, 0, 0.21, 1.55);
+}
+
+.rocket {
+  opacity: 0;
+  transform: translate3d(-130px, 130px, 0);
+  transition: transform 500ms cubic-bezier(0, 0, 0.21, 1.55) 500ms, opacity 500ms ease-out 500ms;
+}
+
+.animate .rocket {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+.animate .rocket-tail {
+  animation: flicker 1s infinite linear;
+}
+
+.animate .border-outside, .animate .border-inside {
+  transform: scale( 1, 1 );
+}
+
+@keyframes flicker {
+  0%, 27%, 44%, 70%, 90% {
+    opacity: 0;
+  }
+  23%, 33%, 58%, 83%, 97% {
+    opacity: 1;
+  }
+}
