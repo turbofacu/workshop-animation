@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  background-repeat: repeat-x;
+  background-size: 1920px 1080px;
+  background-position: 0 0;
+  background-image: url('images/welcome-1.jpg');
+  position: relative;
+  overflow: hidden;
+  animation: animClouds 30s infinite linear;
+}
+
+@keyframes animClouds {
+	from { background-position: 0 0; }
+	to { background-position: 1920px 0; }
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+}
+
+.air-baloon {
+  background-image: url('images/air-baloon.png');
+  top: -200px;
+  width: 478px;
+  height: 765px;
+  left: 800px;
+  animation: animAirBaloon 7s infinite ease-out;
+}
+
+@keyframes animAirBaloon {
+  0% { top: -200px; right: 500px }
+  50% { top: -150px; right: 500px }
+  100% { top: -200px; right: 500px }
+}
+
+.air-baloon:before {
+  content: '';
+  background-image: url('images/hand.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 16px;
+  height: 32px;
+  position: absolute;
+  bottom: 164px;
+  left: 134px;
+  transform-origin: bottom center;
+  animation: animHand 1s infinite linear;
+}
+
+@keyframes animHand {
+  0% { transform: rotate(0deg) }
+  33% { transform: rotate(5deg) }
+  66% { transform: rotate(-5deg) }
+  100% { transform: rotate(0deg) }
+}
+
+.paper-plane {
+  background-image: url('images/paper-plane.png');
+  width: 412px;
+  height: 250px;
+  left: 100px;
+  bottom: 210px;
+  animation: animPlane 7s infinite ease-out;
+}
+
+@keyframes animPlane {
+  0% { bottom: 210px; left: 100px; }
+  55% { bottom: 240px; left: 142px; }
+  100% { bottom: 210px; left: 100px; }
+}
+
+.dog {
+  background-image: url('images/dog.png');
+  width: 333px;
+  height: 223px;
+  left: 1200px;
+  top: 600px;
+  animation: animDog 5s infinite ease-out;
+}
+
+@keyframes animDog {
+  0% { top: 600px; left: 1200px; }
+  45% { top: 630px; left: 1242px; }
+  65% { top: 640px; left: 1240px; }
+  94% { top: 607px; left: 1206px; }
+  100% { top: 600px; left: 1200px; }
+}
+
+.dog:before {
+  content: '';
+  background-image: url('images/dog-shadow.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+  position: absolute;
+  top: 40px;
+  left: 230px;
+  width: 33px;
+  height: 51px;
+  animation: animShadow 2.5s infinite ease-out;
+  overflow: hidden;
+  transform-origin: center center;
+  transform: scale(1, 1);
+}
+
+@keyframes animShadow {
+  0% { transform: scale(1, 1) }
+  33% { transform: scale(0.8, 0.8) }
+  100% { transform: scale(1, 1) }
+}
+
+.dog:after {
+  content: '';
+  background-image: url('images/dog-ear.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 33px;
+  left: 214px;
+  width: 48px;
+  height: 44px;
+  transform-origin: top right;
+  animation: animEar 2.5s infinite ease-out;
+}
+
+@keyframes animEar {
+  0% { transform: rotate(0deg) }
+  33% { transform: rotate(7deg) }
+  100% { transform: rotate(0deg) }
+}
+
+.ufo {
+  background-image: url('images/ufo.png');
+  width: 216px;
+  height: 226px;
+  left: 250px;
+  top: -160px;
+  animation: animUfo 15s infinite ease-out;
+}
+
+@keyframes animUfo {
+  0% { top: -160px; left: 250px; }
+  30% { top: 150px; left: 315px; }
+  55% { top: 150px; left: 292px; }
+  58% { top: 145px; left: 295px; }
+  58.5% { top: 145px; left: 300px; }
+  59% { top: 145px; left: 295px; }
+  59.5% { top: 145px; left: 300px; }
+  60% { top: 145px; left: 295px; }
+  60.5% { top: 145px; left: 300px; }
+  62% { top: -160px; left: 400px; }
+  100% { top: -160px; left: 250px; }
+}
+
+.ufo:before, .ufo:after {
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.ufo:before {
+  background-image: url('images/ufo-1.png');
+  animation: animUfoLights 500ms infinite linear;
+}
+
+.ufo:after {
+  background-image: url('images/ufo-2.png');
+  animation: animUfoCapture 15s infinite linear;
+  opacity: 0;
+}
+
+@keyframes animUfoLights {
+  0% { opacity: 0 }
+  55% { opacity: 1 }
+  100% { opacity: 0 }
+}
+
+@keyframes animUfoCapture {
+  0%, 32%, 34%, 37%, 41%, 44%, 47%, 50%, 55% { opacity: 0; }
+  33%, 35%, 39%, 42%, 46%, 49%, 52% { opacity: 1; }
+}
+
+.baloon {
+  background-image: url('images/baloon.png');
+  width: 420px;
+  height: 420px;
+  left: 700px;
+  bottom: -150px;
+  animation: animBaloon 20s infinite linear;
+}
+
+@keyframes animBaloon {
+  0% { bottom: -150px; left: 700px }
+  50% { bottom: -100px; left: 730px }
+  100% { bottom: -150px; left: 700px }
+}
