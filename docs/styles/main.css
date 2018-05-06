@@ -1489,12 +1489,12 @@ button.swiper-pagination-bullet {
 }
 
 .ui-interface-button-loading {
-  background-image: url("../../images/spinner.svg");
+  background-image: url("../images/spinner.svg");
   background-size: 80% 60%;
 }
 
 .ui-interface-button-success {
-  background-image: url("../../images/check.svg");
+  background-image: url("../images/check.svg");
   background-size: 10%;
 }
 
