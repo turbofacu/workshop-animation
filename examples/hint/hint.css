@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.flex {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: crimson;
+  width: 250px;
+  height: 400px;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 3px 3px 10px 1px rgba(black, 0.2);
+  cursor: pointer;
+  transition: all 500ms ease-out, transform 250ms cubic-bezier(0, 0, 0.0, 1.43);
+}
+
+.card.middle {
+  background-color: pink;
+  transform: translate3d(10px, 10px, 0);
+}
+
+.card.end {
+  background-color: orange;
+  transform: translate3d(20px, 20px, 0);
+}
+
+.card-wrapper {
+  position: relative;
+  width: 250px;
+  height: 400px;
+}
+
+.card-wrapper.inactive .card{
+  transform: translate3d(0, 0, 0);
+  box-shadow: none;
+}
+
+.card-wrapper.hint .card.start{
+  animation: wiggle 1000ms ease-out 1 500ms;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  55% {
+    transform: rotate(-7deg) translate3d(-5px, -3px, 0);
+  }
+  75% {
+    transform: rotate(1deg);
+  }
+  90% {
+    transform: rotate(2deg);
+  }
+}
