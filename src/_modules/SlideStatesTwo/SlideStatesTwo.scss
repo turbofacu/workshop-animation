@@ -28,6 +28,7 @@
     &.correct {
       .states-item {
         &-square {
+        background-color: pink;
           transition: transform 500ms ease-out 500ms, background-color 250ms ease-out;
         }
         &-text {
@@ -37,6 +38,9 @@
     }
     &.bad {
       .states-item {
+        &-square {
+          background-color: orange;
+        }
         &-text {
           transition: opacity 0ms ease-out !important;
         }

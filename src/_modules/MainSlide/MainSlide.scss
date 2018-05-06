@@ -1,6 +1,25 @@
-// link styles
-
 .main-title {
   font-size: 56px;
   text-align: center;
+  > span {
+    color: crimson;
+  }
+}
+
+.author {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+  line-height: 1.6em;
+  position: absolute;
+  bottom: 24px;
+  right: 0;
+
+  &-twitter {
+    color: crimson;
+    transition: color 250ms ease-out;
+    &:hover {
+      color: lighten(crimson, 10%);
+    }
+  }
 }

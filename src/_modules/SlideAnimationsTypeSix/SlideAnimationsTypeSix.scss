@@ -2,7 +2,7 @@
 
 .ui-interface {
   &-card {
-    background-color: teal;
+    background-color: crimson;
     width: 250px;
     height: 400px;
     border-radius: 4px;
@@ -21,7 +21,7 @@
       background-color: pink;
     }
     &.end {
-      background-color: crimson;
+      background-color: orange;
     }
     &-wrapper {
       position: relative;

@@ -15,6 +15,7 @@
 @import '../_modules/SlideTransitionsKeyframesTwo/SlideTransitionsKeyframesTwo';
 @import '../_modules/SlideTransitionsKeyframesThree/SlideTransitionsKeyframesThree';
 @import '../_modules/SlideTransitionsKeyframesFour/SlideTransitionsKeyframesFour';
+@import '../_modules/Thanks/Thanks';
 
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements
@@ -70,6 +71,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 72px 0;
+  position: relative;
 }
 
 
@@ -115,4 +117,20 @@ body {
     color: lighten(crimson, 10%);
     transition: color 250ms ease-out;
   }
+}
+
+.swiper-button-prev, .swiper-button-next {
+  &:focus {
+    outline: none;
+  }
+}
+
+.swiper-button-prev {
+  left: 30px;
+  background-image: url('../../images/arrow-left.svg');
+}
+
+.swiper-button-next {
+  right: 30px;
+  background-image: url('../../images/arrow-right.svg');
 }

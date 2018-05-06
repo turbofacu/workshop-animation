@@ -10227,9 +10227,16 @@ return jQuery;
 var Swiper = require('../_scripts/swiper');
 
 var mySwiper = new Swiper ('.swiper-container', {
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
+  },
+  fadeEffect: {
+    crossFade: true
   },
 });
 
@@ -10241,9 +10248,10 @@ $(function() {
     $(this).toggleClass('animated');
   });
   $('.loading-button').on('click tap', function() {
-    $(this).addClass('loading');
+    var button = $(this);
+    button.addClass('loading');
     setTimeout(function(){
-      $('.loading-button').removeClass('loading').addClass('success');
+      button.removeClass('loading').addClass('success');
     }, 2000);
   });
   $('#ui-input').on('keyup', function() {

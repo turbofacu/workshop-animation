@@ -1,6 +1,7 @@
 {% extends '_layouts/base.nunjucks' %}
 
 {% import "_modules/MainSlide/MainSlide.nunjucks" as MainSlide %}
+{% import "_modules/MainSlideBis/MainSlideBis.nunjucks" as MainSlideBis %}
 {% import "_modules/SlidePropsOne/SlidePropsOne.nunjucks" as SlidePropsOne %}
 {% import "_modules/SlidePropsTwo/SlidePropsTwo.nunjucks" as SlidePropsTwo %}
 {% import "_modules/SlidePropsThree/SlidePropsThree.nunjucks" as SlidePropsThree %}
@@ -22,6 +23,7 @@
 {% import "_modules/SlideTransitionsKeyframesTwo/SlideTransitionsKeyframesTwo.nunjucks" as SlideTransitionsKeyframesTwo %}
 {% import "_modules/SlideTransitionsKeyframesThree/SlideTransitionsKeyframesThree.nunjucks" as SlideTransitionsKeyframesThree %}
 {% import "_modules/SlideTransitionsKeyframesFour/SlideTransitionsKeyframesFour.nunjucks" as SlideTransitionsKeyframesFour %}
+{% import "_modules/Thanks/Thanks.nunjucks" as Thanks %}
 
 {% block content %}
 
@@ -29,7 +31,19 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          {{ MainSlide.content() }}
+          {{ MainSlide.content({
+            text: "Codeando Animaciones"
+          })}}
+        </div>
+        <div class="swiper-slide">
+          {{ MainSlideBis.content({
+            text: "Animación <span>=</span> Control"
+          }) }}
+        </div>
+        <div class="swiper-slide">
+          {{ MainSlideBis.content({
+            text: "Animación <span>=</span> Secuencia"
+          })}}
         </div>
         <div class="swiper-slide">
           {{ SlideAnimationsTypeOne.content() }}
@@ -93,6 +107,9 @@
         </div>
         <div class="swiper-slide">
           {{ SlideStatesTwo.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ Thanks.content() }}
         </div>
       </div>
       <div class="swiper-button-prev"></div>

@@ -21,26 +21,26 @@
     }
     &.ease-in {
       > div {
+        background-color: pink;
         animation-timing-function: ease-in !important;
-        background-color: blue;
       }
     }
     &.ease-out {
       > div {
+        background-color: orange;
         animation-timing-function: ease-out !important;
-        background-color: purple;
       }
     }
     &.ease-in-out {
       > div {
+        background-color: purple;
         animation-timing-function: ease-in-out !important;
-        background-color: lime;
       }
     }
     &.cubic-bezier {
       > div {
+        background-color: blue;
         animation-timing-function: cubic-bezier(0, 0, 0.13, 2.19) !important;
-        background-color: teal;
       }
     }
     &-circle {

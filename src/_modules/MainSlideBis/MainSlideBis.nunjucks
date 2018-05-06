@@ -1,0 +1,9 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="main-title">{{content.text}}</h2>
+    </div>
+  </div>
+
+{% endmacro %}

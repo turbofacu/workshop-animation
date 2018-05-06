@@ -1,0 +1,9 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <img class="thanks-image" src="../../images/thanks.gif" alt="That's all folks!" />
+    </div>
+  </div>
+
+{% endmacro %}

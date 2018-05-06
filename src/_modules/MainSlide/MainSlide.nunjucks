@@ -2,7 +2,11 @@
 
   <div class="standard-container">
     <div class="swiper-content">
-      <h1 class="main-title">Codeando Animaciones</h1>
+      <h1 class="main-title">{{content.text}}</h1>
+      <div class="author">
+        <p class="author-name">Por Facundo Pepe</p>
+        <a class="author-twitter" href="https://twitter.com/turbofacu" target="_blank">@turbofacu</a>
+      </div>
     </div>
   </div>
 
