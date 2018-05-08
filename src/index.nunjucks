@@ -23,6 +23,8 @@
 {% import "_modules/SlideTransitionsKeyframesTwo/SlideTransitionsKeyframesTwo.nunjucks" as SlideTransitionsKeyframesTwo %}
 {% import "_modules/SlideTransitionsKeyframesThree/SlideTransitionsKeyframesThree.nunjucks" as SlideTransitionsKeyframesThree %}
 {% import "_modules/SlideTransitionsKeyframesFour/SlideTransitionsKeyframesFour.nunjucks" as SlideTransitionsKeyframesFour %}
+{% import "_modules/SlideSVGOne/SlideSVGOne.nunjucks" as SlideSVGOne %}
+{% import "_modules/SlideSVGTwo/SlideSVGTwo.nunjucks" as SlideSVGTwo %}
 {% import "_modules/Thanks/Thanks.nunjucks" as Thanks %}
 
 {% block content %}
@@ -30,6 +32,12 @@
   <div class="main-container">
     <div class="swiper-container">
       <div class="swiper-wrapper">
+        {# <div class="swiper-slide">
+          {{ SlideSVGOne.content()}}
+        </div> #}
+        <div class="swiper-slide">
+          {{ SlideSVGTwo.content()}}
+        </div>
         <div class="swiper-slide">
           {{ MainSlide.content({
             text: "Codeando Animaciones"

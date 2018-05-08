@@ -1,0 +1,15 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">SVG</h2>
+      <h3 class="standard-subtitle">Welcome to the world of vectors</h3>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph"><strong>SVG (Scalable Vector Graphics)</strong> es un formato de gráficos vectoriales bidimensionales, en formato XML.</p>
+        <p class="standard-paragraph">La gran ventaja de este formato es su pequeño tamaño, <strong>no pierden calidad si son agrandados</strong> y son recomendados por la W3C :)</p>
+        <p class="standard-paragraph"><strong>Todo elemento y atributo en un archivo SVG es animable.</strong></p>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}
