@@ -7,7 +7,8 @@
       <div class="standard-content content-text">
         <p class="standard-paragraph"><strong>SVG (Scalable Vector Graphics)</strong> es un formato de gráficos vectoriales bidimensionales, en formato XML.</p>
         <p class="standard-paragraph">La gran ventaja de este formato es su pequeño tamaño, <strong>no pierden calidad si son agrandados</strong> y son recomendados por la W3C :)</p>
-        <p class="standard-paragraph"><strong>Todo elemento y atributo en un archivo SVG es animable.</strong></p>
+        <p class="standard-paragraph"><strong>Todo elemento y atributo en un archivo SVG es animable con CSS de la misma forma que animamos elementos HTML.</strong></p>
+        <p class="standard-paragraph disclaimer">*Tener cuidado con la propiedad transform-origin ya que muchos SVG no toman la propiedad declarada en formato texto.</p>
       </div>
     </div>
   </div>

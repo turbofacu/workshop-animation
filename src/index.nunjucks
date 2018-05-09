@@ -32,12 +32,6 @@
   <div class="main-container">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        {# <div class="swiper-slide">
-          {{ SlideSVGOne.content()}}
-        </div> #}
-        <div class="swiper-slide">
-          {{ SlideSVGTwo.content()}}
-        </div>
         <div class="swiper-slide">
           {{ MainSlide.content({
             text: "Codeando Animaciones"
@@ -115,6 +109,12 @@
         </div>
         <div class="swiper-slide">
           {{ SlideStatesTwo.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideSVGOne.content()}}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideSVGTwo.content()}}
         </div>
         <div class="swiper-slide">
           {{ Thanks.content() }}

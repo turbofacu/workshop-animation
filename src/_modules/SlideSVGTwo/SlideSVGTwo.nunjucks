@@ -5,7 +5,7 @@
       <h2 class="standard-title">SVG</h2>
       <h3 class="standard-subtitle">Welcome to the world of vectors</h3>
       <div class="standard-content content-column">
-        <p class="standard-paragraph">Las posibilidades con SVG son infinitas, por ejemplo acá tenemos a Robi animado!</p>
+        <p class="standard-paragraph"><strong>Las posibilidades con SVG son infinitas</strong>, por ejemplo acá tenemos a <strong>Robi</strong> animado!</p>
         <svg class="robi-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1210.656 2132.13" style="enable-background:new 0 0 1210.656 2132.13;" xml:space="preserve">
           <g class="left-arm">
             <path style="fill:none;stroke:#F47B20;stroke-width:68;stroke-miterlimit:10;" d="M569.237,1028.235 c0,0-183.177,125.976-229.801,443.282c-34.982,238.07-1.861,318.118-68.039,440.226"/>

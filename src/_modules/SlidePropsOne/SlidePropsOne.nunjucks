@@ -7,7 +7,7 @@
       <div class="standard-content content-text">
         <p class="standard-paragraph">En <strong>CSS</strong> hay ciertas propiedades que son muy <strong>costosas para la GPU</strong>. Estas producen mucho <strong>paint o repaint</strong> en el browser ya que pueden cambiar la geometría de nuestra web (el layout). Es importante fijarnos en que propiedades estamos utilizando en nuestro código ya que muchas de ellas no nos van a permitir unos fluidos <strong>60fps</strong></p>
         <p class="standard-paragraph">Siempre que puedan <strong>utilicen transforms</strong> en vez de propiedades como width, height o positions.</p>
-        <p class="standard-paragraph disclaimer">Para el siguiente slide activar la función de Paint Flashing del navegador Chrome. Esta función se encuentra en el Inspector en Options > More Tools > Rendering > Paint Flashing *</p>
+        <p class="standard-paragraph disclaimer">*Para el siguiente slide activar la función de Paint Flashing del navegador Chrome. Esta función se encuentra en el Inspector en Options > More Tools > Rendering > Paint Flashing *</p>
       </div>
     </div>
   </div>

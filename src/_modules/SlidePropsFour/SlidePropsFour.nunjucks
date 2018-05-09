@@ -8,7 +8,7 @@
         <p class="standard-paragraph">La propiedad <strong>will-change nos permite avisarle al navegador</strong> los cambios que va a sufrir un elemento de nuestra UI así, antes de que suceda la animación, preparar todas las optimizaciones para que esta se vea lo mejor posible.</p>
         <p class="standard-paragraph">Este tipo de optimizaciones <strong>mejora la respuesta de un sitio web</strong> haciendo que el browser trabaje antes de que las animaciones se produzcan.</p>
         <p class="standard-paragraph">Es importante <strong>no utilizar will-change todo el tiempo</strong>, solo cuando creamos que es realmente necesario ya que sino estaríamos forzando al browser a trabajar antes de tiempo, todo el tiempo.</p>
-        <p class="standard-paragraph disclaimer">Muchas veces nuestra animación va a producir flickers o comportamientos extraños, para intentar solucionar esto podemos utilizar translateZ que fuerza en rendering de la GPU de la compu.</p>
+        <p class="standard-paragraph disclaimer">*Muchas veces nuestra animación va a producir flickers o comportamientos extraños, para intentar solucionar esto podemos utilizar translateZ que fuerza en rendering de la GPU de la compu.</p>
       </div>
     </div>
   </div>
