@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.mp-element-item {
+  animation: dash 2s infinite forwards 500ms;
+}
+
+.mp-element-svg {
+  margin-top: 52px;
+  width: 400px;
+  height: auto;
+}
+
+.mp-element-item {
+  stroke-dasharray: 90;
+  stroke-dashoffset: 90;
+}
+
+.mp-element-tateti {
+  stroke-dasharray: 30;
+  stroke-dashoffset: 30;
+}
+
+.mp-element-circles.big {
+  stroke-dasharray: 150;
+  stroke-dashoffset: 150;
+}
+
+.mp-element-circles.small {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+}
+
+.mp-element-half-moon {
+  stroke-dasharray: 130;
+  stroke-dashoffset: 130;
+}
+
+.mp-element-square {
+  stroke-dasharray: 250;
+  stroke-dashoffset: 250;
+}
+
+.mp-element-lines {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+}
+
+.mp-element-lines-close {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+}
+
+.mp-element-lines-circles {
+  stroke-dasharray: 40;
+  stroke-dashoffset: 40;
+  animation-delay: 500ms !important;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

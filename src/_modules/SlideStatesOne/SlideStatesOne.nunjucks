@@ -5,7 +5,7 @@
       <h2 class="standard-title">Estados de la animación</h2>
       <h3 class="standard-subtitle">Learning to go both ways</h3>
       <div class="standard-content content-text">
-        <p class="standard-paragraph">Las animaciones tienen <strong>tres estados</strong>, dos son estáticos y uno animado</p>
+        <p class="standard-paragraph">Las animaciones tienen <strong>tres estados</strong>, dos son estáticos y uno animado.</p>
         <p class="standard-paragraph">- El elemento previo a la animación.</p>
         <p class="standard-paragraph">- El elemento siendo animado.</p>
         <p class="standard-paragraph">- El elemento con la animación terminada.</p>

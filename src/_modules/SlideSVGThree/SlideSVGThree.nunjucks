@@ -1,0 +1,18 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">SVG</h2>
+      <h3 class="standard-subtitle">Bring your own map!</h3>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph"><strong>En SVGS la propiedad transform-origin no toma el valor correcto si es declarada en formato texto.</strong></p>
+        <p class="standard-paragraph">Para sacar el centro de un SVG podemos usar el siguiente código en la consola:</p>
+        <p class="standard-paragraph">const id = document.getElementById('id');</p>
+        <p class="standard-paragraph">const rect = id.getBBox();</p>
+        <p class="standard-paragraph">const x = rect.x + rect.width / 2;</p>
+        <p class="standard-paragraph">const y = rect.y + rect.height / 2;</p>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}

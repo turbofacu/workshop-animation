@@ -25,6 +25,10 @@
 {% import "_modules/SlideTransitionsKeyframesFour/SlideTransitionsKeyframesFour.nunjucks" as SlideTransitionsKeyframesFour %}
 {% import "_modules/SlideSVGOne/SlideSVGOne.nunjucks" as SlideSVGOne %}
 {% import "_modules/SlideSVGTwo/SlideSVGTwo.nunjucks" as SlideSVGTwo %}
+{% import "_modules/SlideSVGThree/SlideSVGThree.nunjucks" as SlideSVGThree %}
+{% import "_modules/SlideSVGFour/SlideSVGFour.nunjucks" as SlideSVGFour %}
+{% import "_modules/SlideSVGFive/SlideSVGFive.nunjucks" as SlideSVGFive %}
+{% import "_modules/SlideSVGSix/SlideSVGSix.nunjucks" as SlideSVGSix %}
 {% import "_modules/Thanks/Thanks.nunjucks" as Thanks %}
 
 {% block content %}
@@ -115,6 +119,18 @@
         </div>
         <div class="swiper-slide">
           {{ SlideSVGTwo.content()}}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideSVGThree.content()}}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideSVGFour.content()}}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideSVGFive.content()}}
+        </div>
+        <div class="swiper-slide">
+          {{ SlideSVGSix.content()}}
         </div>
         <div class="swiper-slide">
           {{ Thanks.content() }}

@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="hint.css" />
+  </head>
+  <body>
+    <div id="card-wrapper" class="card-wrapper inactive">
+
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(){
+        setTimeout(function(){
+          let cardWrapper = document.getElementById('card-wrapper');
+        cardWrapper.classList.remove('inactive');
+        cardWrapper.classList.add('hint');
+        }, 1000)
+      });
+    </script>
+  </body>
+</html>

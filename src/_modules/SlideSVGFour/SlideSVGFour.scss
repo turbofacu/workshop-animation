@@ -1,0 +1,58 @@
+.swiper-slide-active {
+  .mp-element-item {
+    animation: dash 2s linear forwards 500ms;
+  }
+}
+
+.mp-element {
+  &-svg {
+    margin-top: 52px;
+    width: 400px;
+    height: auto;
+  }
+  &-item {
+    stroke-dasharray: 90;
+    stroke-dashoffset: 90;
+  }
+  &-tateti {
+    stroke-dasharray: 30;
+    stroke-dashoffset: 30;
+  }
+  &-circles {
+    &.big {
+      stroke-dasharray: 150;
+      stroke-dashoffset: 150;
+    }
+    &.small {
+      stroke-dasharray: 100;
+      stroke-dashoffset: 100;
+    }
+  }
+  &-half-moon {
+    stroke-dasharray: 130;
+    stroke-dashoffset: 130;
+  }
+  &-square {
+    stroke-dasharray: 250;
+    stroke-dashoffset: 250;
+  }
+  &-lines {
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+  }
+  &-lines-close {
+    stroke-dasharray: 40;
+    stroke-dashoffset: 40;
+  }
+  &-lines-circles {
+    stroke-dasharray: 40;
+    stroke-dashoffset: 40;
+    animation-delay: 500ms !important;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

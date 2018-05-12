@@ -28,10 +28,12 @@
     &-width {
       width: 0;
       height: 200px;
+      overflow: hidden;
     }
     &-height {
       width: 200px;
       height: 0;
+      overflow: hidden;
       &-wrapper {
         height: 200px;
       }
@@ -49,16 +51,16 @@
 
 .swiper-slide-active {
   .expensive-props-item-width {
-    animation: expensiveWidth 2s linear forwards;
+    animation: expensiveWidth 2s linear forwards 350ms;
   }
   .expensive-props-item-width-transform {
-    animation: cheapWidthTransform 2s linear forwards;
+    animation: cheapWidthTransform 2s linear forwards 350ms;
   }
   .expensive-props-item-height {
-    animation: expensiveHeight 2s linear forwards;
+    animation: expensiveHeight 2s linear forwards 350ms;
   }
   .expensive-props-item-height-transform {
-    animation: cheapHeightTransform 2s linear forwards;
+    animation: cheapHeightTransform 2s linear forwards 350ms;
   }
 }
 

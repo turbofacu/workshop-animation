@@ -1,0 +1,21 @@
+{% macro content(content) %}
+
+  <div class="standard-container">
+    <div class="swiper-content">
+      <h2 class="standard-title">SVG</h2>
+      <h3 class="standard-subtitle">Someone smart thought this</h3>
+      <div class="standard-content content-text">
+        <p class="standard-paragraph">Para animar los strokes de un SVG debemos utilizar las siguientes propiedades:</p>
+        <p class="standard-paragraph"><strong>stroke-dashoffset:</strong> la distancia entre punto y punto de nuestra línea punteada (en valores numéricos)</p>
+        <p class="standard-paragraph"><strong>stroke-dasharray:</strong> el largo de cada punto de nuestra línea punteada (en valores numéricos)</p>
+        <p class="standard-paragraph">Con <strong>stroke-dashoffset</strong> vamos a hacer que <strong>la distancia entre cada punto</strong> de nuestra línea punteada sea igual al largo del elemento a animar.</p>
+        <p class="standard-paragraph">Con <strong>stroke-dasharray</strong> vamos a hacer que <strong>el largo cada punto</strong> de nuestra línea punteada sea igual al largo del elemento a animar.</p>
+        <p class="standard-paragraph">Al hacer esto estaremos <strong>"desdibujando"</strong> la figura y no veremos stroke alguno ya que <strong>el largo y el offset</strong> de cada punto es igual al largo del elemento.</p>
+        <p class="standard-paragraph">Para dibujarlo solo tenemos que <strong>animar a 0 la propiedad stroke-dashoffset!</strong></p>
+        <p class="standard-paragraph"><a class="standard-link" href="https://css-tricks.com/svg-line-animation-works/" target="_blank">Este ejemplo</a> de CSS Tricks lo explica muy bien.</p>
+        <p class="standard-paragraph disclaimer">*El punto de inicio del dibujado será siempre el primer punto que se dibujó en el software de diseño.</p>
+      </div>
+    </div>
+  </div>
+
+{% endmacro %}
