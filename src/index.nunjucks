@@ -43,13 +43,8 @@
         </div>
         <div class="swiper-slide">
           {{ MainSlideBis.content({
-            text: "Animación <span>=</span> Control"
+            text: "Animación para el <span>usuario<span>"
           }) }}
-        </div>
-        <div class="swiper-slide">
-          {{ MainSlideBis.content({
-            text: "Animación <span>=</span> Secuencia"
-          })}}
         </div>
         <div class="swiper-slide">
           {{ SlideAnimationsTypeOne.content() }}
@@ -68,6 +63,11 @@
         </div>
         <div class="swiper-slide">
           {{ SlideAnimationsTypeSix.content() }}
+        </div>
+        <div class="swiper-slide">
+          {{ MainSlideBis.content({
+            text: "Animación <span>es secuencia</span>"
+          })}}
         </div>
         <div class="swiper-slide">
           {{ SlideTransitionsKeyframesOne.content() }}

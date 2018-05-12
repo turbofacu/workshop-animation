@@ -8,7 +8,6 @@
   }
   &.transitions-item {
     background-color: blue;
-    transition: all 5s linear;
     transform: translate3d(0, 0, 0);
   }
   &-wrapper {
@@ -20,6 +19,7 @@
   .transitions-item {
     transform: translate3d(400%, 0, 0);
     background-color: crimson;
+    transition: all 5s linear;
   }
   .keyframes-item {
     animation: keyframes 5s linear forwards;
